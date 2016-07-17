@@ -1,855 +1,244 @@
-
 <!DOCTYPE html>
-<!--[if lt IE 7 ]> <html class="ie6"> <![endif]-->
-<!--[if IE 7 ]>    <html class="ie7"> <![endif]-->
-<!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
-<!--[if IE 9 ]>    <html class="ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html class=""> <!--<![endif]-->
 
+<html>
 	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<link rel="shortcut icon" href="favicon.ico.html">
+		<title>Campo Santo - Firewatch</title>
+		<meta charset="utf-8">
 
-	  	<meta charset="utf-8">
-	  	<meta name="description" content="">
-	  	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-	
+		<!-- Twitter Card data -->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@camposanto">
+		<meta name="twitter:site:id" content="1594071944">
+		<meta name="twitter:title" content="Firewatch: Out now for Windows, PlayStation 4, Mac, and Linux">
+		<meta name="twitter:description" content="Firewatch is a first-person single-player mystery set in the Wyoming wilderness, where your only emotional lifeline is the person on the other end of a handheld radio.">
+		<meta name="twitter:creator" content="@camposanto">
+		<meta name="twitter:creator:id" content="1594071944">
+
+		<!-- Twitter summary card with large image must be at least 280x150px -->
+		<meta name="twitter:image:src" content="http://www.firewatchgame.com/images/badge.png">
 		
-		<title>World's Easiest Decision</title>
-		<meta name="title" content="World's Easiest Decision" />
-		<meta name="description" content="Save the Earth or don’t save the Earth? That’s the World’s #EasiestDecision. " />
+		<link rel="apple-touch-icon" href="images/appicon.png" />
 
-		<!-- Open graph tags -->
-		<meta property="og:title" content="World's Easiest Decision" />
-		<meta property="og:description" content="Save the Earth or don’t save the Earth? That’s the World’s #EasiestDecision. " />
+		<!-- Open Graph data -->
+		<meta property="og:title" content="Firewatch: Out now for Windows, PlayStation 4, Mac, and Linux" />
 		<meta property="og:type" content="website" />
-		<meta property="og:url" content="http://worldseasiestdecision.org/en-us" />
-		<meta property="og:image" content="http://worldseasiestdecision.org/siteshare.jpg" />
+		<meta property="og:url" content="http://www.firewatchgame.com/" />
+		<meta property="og:image" content="http://www.firewatchgame.com/images/badge.png" />
+		<meta property="og:description" content="Firewatch is a first-person single-player mystery set in the Wyoming wilderness, where your only emotional lifeline is the person on the other end of a handheld radio." />
+		<meta property="og:site_name" content="Firewatch" />
 
-		<!-- Schema.org markup for Google+ -->
-		<meta itemprop="name" content="World's Easiest Decision">
-		<meta itemprop="description" content="Save the Earth or don’t save the Earth? That’s the World’s #EasiestDecision. ">
-		<meta itemprop="image" content="http://worldseasiestdecision.org/siteshare.jpg"> 
+		<link rel="stylesheet" href="css/firewatchlaunch-reload=0.css" type="text/css" media="screen" charset="utf-8">
+		<link rel="stylesheet" href="http://www.camposanto.com/css/camponav.css" type="text/css" media="screen" charset="utf-8">
+		<link rel="stylesheet" href="css/magnific-popup.css">
 
-	  	
-  	    <link rel="apple-touch-icon" sizes="57x57" href="../img/favicon/apple-icon-57x57.png">
-  	    <link rel="apple-touch-icon" sizes="60x60" href="../img/favicon/apple-icon-60x60.png">
-  	    <link rel="apple-touch-icon" sizes="72x72" href="../img/favicon/apple-icon-72x72.png">
-  	    <link rel="apple-touch-icon" sizes="76x76" href="../img/favicon/apple-icon-76x76.png">
-  	    <link rel="apple-touch-icon" sizes="114x114" href="../img/favicon/apple-icon-114x114.png">
-  	    <link rel="apple-touch-icon" sizes="120x120" href="../img/favicon/apple-icon-120x120.png">
-  	    <link rel="apple-touch-icon" sizes="144x144" href="../img/favicon/apple-icon-144x144.png">
-  	    <link rel="apple-touch-icon" sizes="152x152" href="../img/favicon/apple-icon-152x152.png">
-  	    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-icon-180x180.png">
-  	    <link rel="icon" type="image/png" sizes="192x192"  href="../img/favicon/android-icon-192x192.png">
-  	    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
-  	    <link rel="icon" type="image/png" sizes="96x96" href="../img/favicon/favicon-96x96.png">
-  	    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
-  	    <link rel="manifest" href="../img/favicon/manifest.json">
-  	    <meta name="msapplication-TileColor" content="#ffffff">
-  	    <meta name="msapplication-TileImage" content="/img/favicon/ms-icon-144x144.png">
-  	    <meta name="theme-color" content="#ffffff">
+		
+		
+		<!-- H&FJ CLOUD.TYPOGRAPHY ENABLED for VERLAG -->
+		<link rel="stylesheet" type="text/css" href="http://cloud.typography.com/7652892/657204/css/fonts.css" />
 
-	  	<link rel="stylesheet" type="text/css" href="../css/styles.css"/>
-	  	<link rel="stylesheet" type="text/css" href="../css/animate.css"/>
-	  	<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css"/>
-		<style type="text/css">.memberCode{display:none;}</style>
-    
+		<script type="text/javascript" src="http://use.typekit.net/nsv4yzv.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+
+		<!-- GoSquared Analytics -->
+
+		<script type="text/javascript">
+		  !function(g,s,q,r,d){r=g[r]=g[r]||function(){(r.q=r.q||[]).push(
+		  arguments)};d=s.createElement(q);q=s.getElementsByTagName(q)[0];
+		  d.src='//d1l6p2sc9645hc.cloudfront.net/tracker.js';q.parentNode.
+		  insertBefore(d,q)}(window,document,'script','_gs');
+		  
+		  _gs('GSN-517995-G');
+		</script>
+
+
+		
+						
 	</head>
 
+	<body class="firewatch launch">
+				<ul class="navbar-top">
+			<li id="nav-company"><a href="http://www.camposanto.com"><strong>Campo Santo</strong></a></li>
+			<!-- THESE MUST GO IN REVERSE ORDER BECAUSE CSS IS DUMB SOMETIMES -->
+			<li id="nav-review"><a href="https://quarterly.camposanto.com/"><strong><span class="collapse">Quarterly Review</span><span class="reveal">Newsletter</span></strong></a></li>
+			<li id="nav-store"><a href="http://store.camposanto.com"><strong><span class="collapse">Campo </span>Store</strong></a></li>
+			<li id="nav-blog"><a href="http://blog.camposanto.com"><strong><span class="collapse">Development </span>Blog</strong></a></li>
+			<li id="nav-game"><a href="index.html"><span class="collapse">Our Game: </span><strong>Firewatch</strong></a></li>
+		</ul>		<script type="text/javascript">document.getElementById("nav-game").className += " current";</script>
 
-	<body>
-            
-        <!-- floodlight fallback -->
-        <noscript>
-        <iframe src=""https://5195633.fls.doubleclick.net/activityi;src=5195633;type=landi0;cat=landi0;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1?"" width=""1"" height=""1"" frameborder=""0"" style=""display:none""></iframe>
-        </noscript>
+		<div id="page">
 
-        <div id = "tagHolder">
-        
-        </div>
+			
 
-		<div class = "container">
-
-		  	<div id = "climateView" class = "view hideContent">          
-
-				<div class = "sections">
-				</div>  
-				
-		  	</div>
-	
-			<div id = "impactView">
-				<div class = "btnClose"></div>
-
-				<!-- <div class = "thanks">
-					<div class = "headline">Thank You</div>
-					<div class = "divider"></div>
-					<div class = "body">You’ve just made the world’s easiest decision. Now, ask your world leaders to do the same.</div>
-				</div> -->
-				    
-				<div class = "title">
-					<span class="diamond"></span><h1>{ copy.subhead}</h1><span class="diamond"></span>
-				</div>
-                
-				<div class = "leaders"></div>
-				<div class = "numbers">
-					<div class="stat global">
-							<div class="icon global"></div>
-							<label>{ copy.global }</label>
-							<div class="line"></div>
-							<div class="number">{ controller.global | climateNumber }</div>
-					</div><div class="stat tweets">
-						<div class = "over"></div>
-						<div class = "content">
-							<div class="icon tweets"></div>
-							<div class="number">{ controller.tweets | climateNumber }</div>
-							<label>{ copy.tweets }</label>
-						</div>
-					</div><div class="stat social">
-						<div class = "over"></div>
-						<div class = "content">
-							<div class="icon social"></div>
-							<div class="number">{ controller.social | climateNumber }</div>
-							<label>{ copy.social }</label>
-						</div>
-					</div><a href = "https://www.youtube.com/user/ClimateReality" target = "_blank"><div class="stat youtube">
-						<div class = "over"></div>
-						<div class = "content">
-							<div class="icon youtube"></div>
-							<div class="number">{ controller.youtube | climateNumber }</div>
-							<label>{ copy.youtube }</label>
-						</div>
-					</div></a><a href = "https://instagram.com/climatereality/" target = "_blank"><div class="stat instagram">
-						<div class = "over"></div>
-						<div class = "content">
-							<div class="icon instagram"></div>
-							<div class="number">{ controller.instagram | climateNumber }</div>
-							<label>{ copy.instagram }</label>
-						</div>
-					</div></a>
-				</div>
+			<div class="keyart" id="nonparallax">
 			</div>
-			
-		  	<div id = "petitionView">
-				
-				<div class = "btnClose"></div>
-
-				<div class="upperContent">		
-					<div class = "cta">
-						<h1>{ copy.letter_to }</h1>
-						<div class = "dots"><div class = "diamond"></div></div>
-						<p>{ copy.letter_one }</p>
-						<p>{ copy.letter_two }</p>
-						<p>{ copy.letter_three }</p>
-						<p>{ copy.letter_sincerely }</p>
-					</div>
-				</div>
-
-				<div class = "content">
-
-
-					<form id="petitionForm" action="https://tcrp.salsalabs.com/save" method="POST">
-                        <input id="key" name="organization_KEY" type="hidden" value="2168"> 
-
-                        <input type="hidden" name="email_trigger_KEYS" value="112">
-                         <input name="object" type="hidden" value="supporter">
-
-                        <input type="hidden" name="Receive_Email" value="1">
-                         
-                        <input name="required" type="hidden" value="First_Name,Last_Name,Email,City,Country">
-                                    
-                        <section>
-                            <label for="first_name">{ copy.first_name }<span class="required">*</span></label>
-                            <input id="first_name" name="First_Name" required="" type="text">
-                        </section>
-                        
-                        <section>
-                            <label for="last_name" id="last_name">{ copy.last_name }<span class="required">*</span></label>
-                            <input id="last_name" name="Last_Name" required="" type="text">
-                        </section>
-
-                        <section>
-                            <label for="email">{ copy.email }<span class="required">*</span></label>
-                            <input id="email" name="Email" required="" type="email">
-                        </section>
-
-                        <section>
-                            <label for="city" id="city">{ copy.city }<span class="required">*</span></label>
-                            <input id="city" name="City" required="" type="text">
-                        </section>
-                        
-                        <section>
-                            <label for="country" id="ct">Country<span class="required"> *</span></label>
-                            <select id="country" name="Country" required="" type="text"><option value="">Select Country</option>
-                            <option value="United States">United States</option>
-                            <option value="Afghanistan">Afghanistan</option>
-                            <option value="Åland Islands">Åland Islands</option>
-                            <option value="Albania">Albania</option>
-                            <option value="Algeria">Algeria</option>
-                            <option value="American Samoa">American Samoa</option>
-                            <option value="Andorra">Andorra</option>
-                            <option value="Angola">Angola</option>
-                            <option value="Anguilla">Anguilla</option>
-                            <option value="Antarctica">Antarctica</option>
-                            <option value="Antigua and Barbuda">Antigua and Barbuda</option>
-                            <option value="Argentina">Argentina</option>
-                            <option value="Armenia">Armenia</option>
-                            <option value="Aruba">Aruba</option>
-                            <option value="Australia">Australia</option>
-                            <option value="Austria">Austria</option>
-                            <option value="Azerbaijan">Azerbaijan</option>
-                            <option value="Bahamas">Bahamas</option>
-                            <option value="Bahrain">Bahrain</option>
-                            <option value="Bangladesh">Bangladesh</option>
-                            <option value="Barbados">Barbados</option>
-                            <option value="Belarus">Belarus</option>
-                            <option value="Belgium">Belgium</option>
-                            <option value="Belize">Belize</option>
-                            <option value="Benin">Benin</option>
-                            <option value="Bermuda">Bermuda</option>
-                            <option value="Bhutan">Bhutan</option>
-                            <option value="Bolivia">Bolivia</option>
-                            <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
-                            <option value="Botswana">Botswana</option>
-                            <option value="Bouvet Island">Bouvet Island</option>
-                            <option value="Brazil">Brazil</option>
-                            <option value="British Indian Ocean Territory">British Indian Ocean Territory</option>
-                            <option value="Brunei Darussalam">Brunei Darussalam</option>
-                            <option value="Bulgaria">Bulgaria</option>
-                            <option value="Burkina Faso">Burkina Faso</option>
-                            <option value="Burundi">Burundi</option>
-                            <option value="Cambodia">Cambodia</option>
-                            <option value="Cameroon">Cameroon</option>
-                            <option value="Canada">Canada</option>
-                            <option value="Cape Verde">Cape Verde</option>
-                            <option value="Cayman Islands">Cayman Islands</option>
-                            <option value="Central African Republic">Central African Republic</option>
-                            <option value="Chad">Chad</option>
-                            <option value="Chile">Chile</option>
-                            <option value="China">China</option>
-                            <option value="Christmas Island">Christmas Island</option>
-                            <option value="Cocos (Keeling) Islands">Cocos (Keeling) Islands</option>
-                            <option value="Colombia">Colombia</option>
-                            <option value="Comoros">Comoros</option>
-                            <option value="Congo">Congo</option>
-                            <option value="Congo, The Democratic Republic of The">Congo, The Democratic Republic of The</option>
-                            <option value="Cook Islands">Cook Islands</option>
-                            <option value="Costa Rica">Costa Rica</option>
-                            <option value="Cote D'ivoire">Cote D'ivoire</option>
-                            <option value="Croatia">Croatia</option>
-                            <option value="Cuba">Cuba</option>
-                            <option value="Cyprus">Cyprus</option>
-                            <option value="Czech Republic">Czech Republic</option>
-                            <option value="Denmark">Denmark</option>
-                            <option value="Djibouti">Djibouti</option>
-                            <option value="Dominica">Dominica</option>
-                            <option value="Dominican Republic">Dominican Republic</option>
-                            <option value="Ecuador">Ecuador</option>
-                            <option value="Egypt">Egypt</option>
-                            <option value="El Salvador">El Salvador</option>
-                            <option value="Equatorial Guinea">Equatorial Guinea</option>
-                            <option value="Eritrea">Eritrea</option>
-                            <option value="Estonia">Estonia</option>
-                            <option value="Ethiopia">Ethiopia</option>
-                            <option value="Falkland Islands (Malvinas)">Falkland Islands (Malvinas)</option>
-                            <option value="Faroe Islands">Faroe Islands</option>
-                            <option value="Fiji">Fiji</option>
-                            <option value="Finland">Finland</option>
-                            <option value="France">France</option>
-                            <option value="French Guiana">French Guiana</option>
-                            <option value="French Polynesia">French Polynesia</option>
-                            <option value="French Southern Territories">French Southern Territories</option>
-                            <option value="Gabon">Gabon</option>
-                            <option value="Gambia">Gambia</option>
-                            <option value="Georgia">Georgia</option>
-                            <option value="Germany">Germany</option>
-                            <option value="Ghana">Ghana</option>
-                            <option value="Gibraltar">Gibraltar</option>
-                            <option value="Greece">Greece</option>
-                            <option value="Greenland">Greenland</option>
-                            <option value="Grenada">Grenada</option>
-                            <option value="Guadeloupe">Guadeloupe</option>
-                            <option value="Guam">Guam</option>
-                            <option value="Guatemala">Guatemala</option>
-                            <option value="Guernsey">Guernsey</option>
-                            <option value="Guinea">Guinea</option>
-                            <option value="Guinea-bissau">Guinea-bissau</option>
-                            <option value="Guyana">Guyana</option>
-                            <option value="Haiti">Haiti</option>
-                            <option value="Heard Island and Mcdonald Islands">Heard Island and Mcdonald Islands</option>
-                            <option value="Holy See (Vatican City State)">Holy See (Vatican City State)</option>
-                            <option value="Honduras">Honduras</option>
-                            <option value="Hong Kong">Hong Kong</option>
-                            <option value="Hungary">Hungary</option>
-                            <option value="Iceland">Iceland</option>
-                            <option value="India">India</option>
-                            <option value="Indonesia">Indonesia</option>
-                            <option value="Iran, Islamic Republic of">Iran, Islamic Republic of</option>
-                            <option value="Iraq">Iraq</option>
-                            <option value="Ireland">Ireland</option>
-                            <option value="Isle of Man">Isle of Man</option>
-                            <option value="Israel">Israel</option>
-                            <option value="Italy">Italy</option>
-                            <option value="Jamaica">Jamaica</option>
-                            <option value="Japan">Japan</option>
-                            <option value="Jersey">Jersey</option>
-                            <option value="Jordan">Jordan</option>
-                            <option value="Kazakhstan">Kazakhstan</option>
-                            <option value="Kenya">Kenya</option>
-                            <option value="Kiribati">Kiribati</option>
-                            <option value="Korea, Democratic People's Republic of">Korea, Democratic People's Republic of</option>
-                            <option value="Korea, Republic of">Korea, Republic of</option>
-                            <option value="Kuwait">Kuwait</option>
-                            <option value="Kyrgyzstan">Kyrgyzstan</option>
-                            <option value="Lao People's Democratic Republic">Lao People's Democratic Republic</option>
-                            <option value="Latvia">Latvia</option>
-                            <option value="Lebanon">Lebanon</option>
-                            <option value="Lesotho">Lesotho</option>
-                            <option value="Liberia">Liberia</option>
-                            <option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya</option>
-                            <option value="Liechtenstein">Liechtenstein</option>
-                            <option value="Lithuania">Lithuania</option>
-                            <option value="Luxembourg">Luxembourg</option>
-                            <option value="Macao">Macao</option>
-                            <option value="Macedonia, The Former Yugoslav Republic of">Macedonia, The Former Yugoslav Republic of</option>
-                            <option value="Madagascar">Madagascar</option>
-                            <option value="Malawi">Malawi</option>
-                            <option value="Malaysia">Malaysia</option>
-                            <option value="Maldives">Maldives</option>
-                            <option value="Mali">Mali</option>
-                            <option value="Malta">Malta</option>
-                            <option value="Marshall Islands">Marshall Islands</option>
-                            <option value="Martinique">Martinique</option>
-                            <option value="Mauritania">Mauritania</option>
-                            <option value="Mauritius">Mauritius</option>
-                            <option value="Mayotte">Mayotte</option>
-                            <option value="Mexico">Mexico</option>
-                            <option value="Micronesia, Federated States of">Micronesia, Federated States of</option>
-                            <option value="Moldova, Republic of">Moldova, Republic of</option>
-                            <option value="Monaco">Monaco</option>
-                            <option value="Mongolia">Mongolia</option>
-                            <option value="Montenegro">Montenegro</option>
-                            <option value="Montserrat">Montserrat</option>
-                            <option value="Morocco">Morocco</option>
-                            <option value="Mozambique">Mozambique</option>
-                            <option value="Myanmar">Myanmar</option>
-                            <option value="Namibia">Namibia</option>
-                            <option value="Nauru">Nauru</option>
-                            <option value="Nepal">Nepal</option>
-                            <option value="Netherlands">Netherlands</option>
-                            <option value="Netherlands Antilles">Netherlands Antilles</option>
-                            <option value="New Caledonia">New Caledonia</option>
-                            <option value="New Zealand">New Zealand</option>
-                            <option value="Nicaragua">Nicaragua</option>
-                            <option value="Niger">Niger</option>
-                            <option value="Nigeria">Nigeria</option>
-                            <option value="Niue">Niue</option>
-                            <option value="Norfolk Island">Norfolk Island</option>
-                            <option value="Northern Mariana Islands">Northern Mariana Islands</option>
-                            <option value="Norway">Norway</option>
-                            <option value="Oman">Oman</option>
-                            <option value="Pakistan">Pakistan</option>
-                            <option value="Palau">Palau</option>
-                            <option value="Palestinian Territory, Occupied">Palestinian Territory, Occupied</option>
-                            <option value="Panama">Panama</option>
-                            <option value="Papua New Guinea">Papua New Guinea</option>
-                            <option value="Paraguay">Paraguay</option>
-                            <option value="Peru">Peru</option>
-                            <option value="Philippines">Philippines</option>
-                            <option value="Pitcairn">Pitcairn</option>
-                            <option value="Poland">Poland</option>
-                            <option value="Portugal">Portugal</option>
-                            <option value="Puerto Rico">Puerto Rico</option>
-                            <option value="Qatar">Qatar</option>
-                            <option value="Reunion">Reunion</option>
-                            <option value="Romania">Romania</option>
-                            <option value="Russian Federation">Russian Federation</option>
-                            <option value="Rwanda">Rwanda</option>
-                            <option value="Saint Helena">Saint Helena</option>
-                            <option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
-                            <option value="Saint Lucia">Saint Lucia</option>
-                            <option value="Saint Pierre and Miquelon">Saint Pierre and Miquelon</option>
-                            <option value="Saint Vincent and The Grenadines">Saint Vincent and The Grenadines</option>
-                            <option value="Samoa">Samoa</option>
-                            <option value="San Marino">San Marino</option>
-                            <option value="Sao Tome and Principe">Sao Tome and Principe</option>
-                            <option value="Saudi Arabia">Saudi Arabia</option>
-                            <option value="Senegal">Senegal</option>
-                            <option value="Serbia">Serbia</option>
-                            <option value="Seychelles">Seychelles</option>
-                            <option value="Sierra Leone">Sierra Leone</option>
-                            <option value="Singapore">Singapore</option>
-                            <option value="Slovakia">Slovakia</option>
-                            <option value="Slovenia">Slovenia</option>
-                            <option value="Solomon Islands">Solomon Islands</option>
-                            <option value="Somalia">Somalia</option>
-                            <option value="South Africa">South Africa</option>
-                            <option value="South Georgia and The South Sandwich Islands">South Georgia and The South Sandwich Islands</option>
-                            <option value="Spain">Spain</option>
-                            <option value="Sri Lanka">Sri Lanka</option>
-                            <option value="Sudan">Sudan</option>
-                            <option value="Suriname">Suriname</option>
-                            <option value="Svalbard and Jan Mayen">Svalbard and Jan Mayen</option>
-                            <option value="Swaziland">Swaziland</option>
-                            <option value="Sweden">Sweden</option>
-                            <option value="Switzerland">Switzerland</option>
-                            <option value="Syrian Arab Republic">Syrian Arab Republic</option>
-                            <option value="Taiwan, Province of China">Taiwan, Province of China</option>
-                            <option value="Tajikistan">Tajikistan</option>
-                            <option value="Tanzania, United Republic of">Tanzania, United Republic of</option>
-                            <option value="Thailand">Thailand</option>
-                            <option value="Timor-leste">Timor-leste</option>
-                            <option value="Togo">Togo</option>
-                            <option value="Tokelau">Tokelau</option>
-                            <option value="Tonga">Tonga</option>
-                            <option value="Trinidad and Tobago">Trinidad and Tobago</option>
-                            <option value="Tunisia">Tunisia</option>
-                            <option value="Turkey">Turkey</option>
-                            <option value="Turkmenistan">Turkmenistan</option>
-                            <option value="Turks and Caicos Islands">Turks and Caicos Islands</option>
-                            <option value="Tuvalu">Tuvalu</option>
-                            <option value="Uganda">Uganda</option>
-                            <option value="Ukraine">Ukraine</option>
-                            <option value="United Arab Emirates">United Arab Emirates</option>
-                            <option value="United Kingdom">United Kingdom</option>
-                            <option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option>
-                            <option value="Uruguay">Uruguay</option>
-                            <option value="Uzbekistan">Uzbekistan</option>
-                            <option value="Vanuatu">Vanuatu</option>
-                            <option value="Venezuela">Venezuela</option>
-                            <option value="Viet Nam">Viet Nam</option>
-                            <option value="Virgin Islands, British">Virgin Islands, British</option>
-                            <option value="Virgin Islands, U.S.">Virgin Islands, U.S.</option>
-                            <option value="Wallis and Futuna">Wallis and Futuna</option>
-                            <option value="Western Sahara">Western Sahara</option>
-                            <option value="Yemen">Yemen</option>
-                            <option value="Zambia">Zambia</option>
-                            <option value="Zimbabwe">Zimbabwe</option> 
-                            </select>
-                        </section>
-                        
-                        <select class="unsub" id="unsub" name="crp_unsub" style="display:none"><option value=""></option><option value="Subscribed">Subscribed</option></select>
-
-                        <div class="memberCode">
-                            Optional Member Code <input name="first_name_949" value="">
-                        </div>
-
-                        <input name="redirect" type="hidden" value="https://www.climaterealityproject.org/content/thank-you-taking-action">
-                   
-                        <input name="link" type="hidden" value="groups"> 
-                        
-                        <div class="checkbox"> 
-                            <input groups_key="38" id="38" class="check" name="linkKey" onclick="optionalClick('38')" type="checkbox" value="0">  
-                              <input type="hidden" name="link" value="action">
-                                <input type="hidden" name="linkKey" value="6">
-                                <input name="tag" type="hidden" value="Petition:WorldsEasiestDecision" />
-                                <input type="hidden" name="tag" value="Road to Paris Petition">      
-                                
-                            <div class="optional-group">
-                                <label for="38">{ copy.updates }</label>
-                            </div>
-                        </div>
-                     
-                        <input class="btnSubmit" type="Submit" rv-value="copy.btn_submit" value="Submit">
-                    </form>
-
-				</div>
-
-				<div class = "whiteOverlay"></div>
-		  	</div>
-
-		  	<div id = "galleryView">
-		  		<div class = "btnClose"></div>
-		  		<div class = "btnPrevious btnPreviousDesktop"><i class = "arrow"></i></div>
-		  		<div class = "btnNext btnNextDesktop"><i class = "arrow"></i></div>
-		  		<div class = "pages"></div>
-		  		<div class = "bar"><div class = "diamond"></div></div>
-		  		<div class = "mobileControls">
-		  			<div class = "btnPrevious btnPreviousMobile"><i class = "arrow"></i></div>
-		  			<div class = "count">{ controller.currentPage }</div>
-		  			<div class = "btnNext btnNextMobile"><i class = "arrow"></i></div>
-		  		</div>
-		  	</div>
-		  	
-		</div>
-		
-		<div class = "rotateOverlay">
-			<div class= "icon"></div>
-		</div>
-
-		<div id = "templates">
-			
-			<div class = "popup">
-			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 141.6 141.6" enable-background="new 0 0 141.6 141.6" xml:space="preserve">
-<g>
-	<defs>
-		<rect id="SVGID_1_" width="141.6" height="141.6"/>
-	</defs>
-	<clipPath id="SVGID_2_">
-		<use xlink:href="#SVGID_1_"  overflow="visible"/>
-	</clipPath>
-	<path clip-path="url(#SVGID_2_)" class ="path" fill="#FFFFFF" d="M73.5,1L79,5.2c1.2,1,2.8,1.2,4.3,0.7l6.5-2.4c1.9-0.7,4.1,0,5.2,1.7l3.8,5.7
-		c0.9,1.3,2.3,2,3.9,2l6.9-0.3c2.1-0.1,3.9,1.3,4.5,3.2l1.9,6.7c0.4,1.5,1.6,2.7,3.1,3.1l6.7,1.9c2,0.6,3.3,2.4,3.2,4.5l-0.3,6.9
-		c-0.1,1.5,0.7,3,2,3.9l5.7,3.8c1.7,1.1,2.4,3.3,1.7,5.2l-2.4,6.5c-0.5,1.5-0.3,3.1,0.7,4.3l4.3,5.4c1.3,1.6,1.3,3.9,0,5.5l-4.3,5.4
-		c-1,1.2-1.2,2.8-0.7,4.3l2.4,6.5c0.7,1.9,0,4.1-1.7,5.2l-5.7,3.8c-1.3,0.9-2,2.3-2,3.9l0.3,6.9c0.1,2.1-1.3,3.9-3.2,4.5l-6.7,1.9
-		c-1.5,0.4-2.7,1.6-3.1,3.1l-1.9,6.7c-0.6,2-2.4,3.3-4.5,3.2l-6.9-0.3c-1.5-0.1-3,0.7-3.9,2l-3.8,5.7c-1.1,1.7-3.3,2.4-5.2,1.7
-		l-6.5-2.4c-1.5-0.5-3.1-0.3-4.3,0.7l-5.4,4.3c-1.6,1.3-3.9,1.3-5.5,0l-5.4-4.3c-1.2-1-2.8-1.2-4.3-0.7l-6.5,2.4
-		c-1.9,0.7-4.1,0-5.2-1.7l-3.8-5.7c-0.9-1.3-2.3-2-3.9-2l-6.9,0.3c-2.1,0.1-3.9-1.3-4.5-3.2l-1.9-6.7c-0.4-1.5-1.6-2.7-3.1-3.1
-		l-6.7-1.9c-2-0.6-3.3-2.4-3.2-4.5l0.3-6.9c0.1-1.5-0.7-3-2-3.9L5.2,95c-1.7-1.1-2.4-3.3-1.7-5.2l2.4-6.5c0.5-1.5,0.3-3.1-0.7-4.3
-		L1,73.5c-1.3-1.6-1.3-3.9,0-5.5l4.3-5.4c1-1.2,1.2-2.8,0.7-4.3l-2.4-6.5c-0.7-1.9,0-4.1,1.7-5.2l5.7-3.8c1.3-0.9,2-2.3,2-3.9
-		L12.7,32c-0.1-2.1,1.3-3.9,3.2-4.5l6.7-1.9c1.5-0.4,2.7-1.6,3.1-3.1l1.9-6.7c0.6-2,2.4-3.3,4.5-3.2l6.9,0.3c1.5,0.1,3-0.7,3.9-2
-		l3.8-5.7c1.1-1.7,3.3-2.4,5.2-1.7l6.5,2.4c1.5,0.5,3.1,0.3,4.3-0.7L68,1C69.6-0.3,71.9-0.3,73.5,1"/>
-</g>
-</svg>
-				<div class = "quote">&#147;</div>
-				<div class = "copy"></div>
+			<div class="keyart" id="parallax">
+				<div class="keyart_layer parallax" id="keyart-0" data-speed="2"></div>		<!-- 00.0 -->
+				<div class="keyart_layer parallax" id="keyart-1" data-speed="5"></div>	<!-- 12.5 -->
+				<div class="keyart_layer parallax" id="keyart-2" data-speed="11"></div>		<!-- 25.0 -->
+				<div class="keyart_layer parallax" id="keyart-3" data-speed="16"></div>	<!-- 37.5 -->
+				<div class="keyart_layer parallax" id="keyart-4" data-speed="26"></div>		<!-- 50.0 -->
+				<div class="keyart_layer parallax" id="keyart-5" data-speed="36"></div>	<!-- 62.5 -->
+				<div class="keyart_layer parallax" id="keyart-6" data-speed="49"></div>		<!-- 75.0 -->
+				<div class="keyart_layer" id="keyart-scrim"></div>
+				<div class="keyart_layer parallax" id="keyart-7" data-speed="69"></div>		<!-- 87.5 -->
+				<div class="keyart_layer" id="keyart-8" data-speed="100"></div>		<!-- 100. -->
 			</div>
 
-		  	<div class = "leader">
-		  		<div class = "impactSprite"></div>
-		  		<div class = "details">
-		  			<div class="social">
-		  				<a class="btnSocial btnEmail"><i class = "fa fa-envelope"></i></a>
-		  				<div class="btnSocial btnTwitter"><i class= "fa fa-twitter"></i></div>
-		  			</div>
-					<div class = "country">
-						<span class = "line"></span>
-						<span class = "countryName"></span>
-						<span class = "line"></span>
-					</div>
-					<div class = "name"></div>
-				</div>
-		  	</div>
+			<div id="maincontain"><div id="main">
 
-		  	<div class = "galleryVideo">
-		  		<div class = "vidHolder">
-			  		<div class="bgImage"></div>
-					<img rv-src = "data.poster"/>
-					<div class="play"></div>
-
-				</div>
-				<div class = "caption"></div>
-		  	</div>
-
-		  	<div class = "videoPlayer">
-
-		  		<div class = "btnClose"></div>
-
-		  		<div class = "videoHolder">
-		  		  	<div class = "loader"></div>
-		  		  	<div id="player"></div>
-		  		</div>
-		  	</div>
-
-		  	<div class = "petition">
-				<div class = "overlay"></div>
-				<div class = "content">
-					<div class="voteHeader">
-						<div class="corner left"></div>
-						<span class="diamond"></span>
-						 { copy.headline_vote } 
-						<span class="diamond"></span>
-						<div class="corner right"></div>
-					</div>
-					<div class = "modal btnFilm">
-						<div class = "icon iconFilm"></div>
-						<h3>{ copy.btn_film_header }</h3>
-						<h1 class = "filmName"></h1>
-						<span class="underline"></span>
-					</div>
-					<div class = "modal btnSign">
-						<div class = "icon iconPencil"></div>
-						<h3>{ copy.btn_petition_header }</h3>
-						<h1>{ copy.btn_petition }</h1>
-						<div class="underline"></div>
-					</div>
-				</div>
-		  	</div>
-
-		  	<header class = "header">
-		  		<div id = "gui"></div>
-		  		<div class = "logo"></div>
-		  		<div class = "btnPetition"> <span class="sign"> { copy.btn_sign_petition } </span>
-		  			<div class = "icon"></div>
-		  			<div class="line"> </div>
-		  		</div>
-		  		<div class = "btnGallery">{ copy.btn_gallery }<div class="line"> </div></div>
-
-		  		<a href = "http://climaterealityproject.org/" target = "_blank"><div class = "btnInvolved">{ copy.btn_get_involved }<div class="line"> </div></div></a>
-		  		<a class = "btnMenu">
-		  		  <div class = "hamburger">
-		  		    <span class = "top"></span>
-		  		    <span class = "middle"></span>
-		  		    <span class = "bottom"></span>
-		  		  </div>
-		  		</a>
-
-		  	</header>
-			
-		  	<div class = "menu">
-		  			<div class="innerContent">
-			  	<div class = "btnPetition"> <div class = "icon"></div> <span class="sign"> { copy.btn_sign_petition } </span></div>
-			  	<div class = "divider"><div class = "diamond"></div></div>
-		  		<a href = "http://climaterealityproject.org/" target = "_blank"><div class = "btnInvolved">{ copy.btn_get_involved }</div></a>
-		  		<div class = "divider"><div class = "diamond"></div></div>
-		  		<div class = "btnGallery">{ copy.btn_gallery }</div>
-				<div class = "divider"><div class = "diamond"></div></div>
-				<div class = "share">
-					<div class="btn btnTwitter"></div>
-					<div class="btn btnFacebook"></div>
-					<div class="btn btnGoogle"></div>
-				</div>
-					<div class="privacyLinks">
-					<a href = "https://www.climaterealityproject.org/privacy-policy" target = "_blank" class="privacy">{ copy.link_privacy }</a>
-					<a href = "https://www.climaterealityproject.org/terms-of-use" target = "_blank" class="terms">{ copy.link_terms }</a>		
-				</div>
-					</div>
-		  	</div>
-
-			<footer class = "footer">
-
-				<div class = "banner"><span class="actions">{ controller.actions | climateNumber }</span>&nbsp;-&nbsp;{ copy.actions }</div>
-				<div class="diamond">
-					<div class = "bg"></div>
-					<div class = "content">
-						<div class = "innerContent">
-							<span class="impact">{ copy.our_impact }</span>
-						</div>
-					</div>
-				</div>
-				<div class = "languageSelect">
-					<ul class = "languages">
-						<li class = "lang" data-code = "pt"><span class = "label">{ copy.lang_pt }</span><div class = "flag pt"></div></li>
-						<li class = "lang" data-code = "zh"><span class = "label">{ copy.lang_zh }</span><div class = "flag zh"></div></li>
-						<li class = "lang" data-code = "hi"><span class = "label">{ copy.lang_hi }</span><div class = "flag hi"></div></li>
-						<li class = "lang" data-code = "tl"><span class = "label">{ copy.lang_tl }</span><div class = "flag tl"></div></li>
-						<li class = "lang" data-code = "es"><span class = "label">{ copy.lang_es }</span><div class = "flag es"></div></li>
-						<li class = "lang" data-code = "fr"><span class = "label">{ copy.lang_fr }</span><div class = "flag fr"></div></li>
-						<li class = "lang" data-code = "en-gb"><span class = "label">{ copy.lang_en_uk }</span><div class = "flag uk"></div></li>
-						<li class = "lang" data-code = "en-us"><span class = "label">{ copy.lang_en_us }</span><div class = "flag us"></div></li>
-					</ul>
-					<div class = "active"></div>
+				<div class="section pressquote big first">
+					<h2>"A controlled burn of brilliance."</h2>
+					<h3>IGN</h3>
 				</div>
 
-
-				<div class = "share">
-					<div class="btn btnTwitter">
-						<svg version="1.1" class="twitterSvg" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-							 viewBox="389.9 299.5 12.2 13" enable-background="new 389.9 299.5 12.2 13" xml:space="preserve">
-						<!-- <polygon class="twitterPoly" fill="#B2B2B2" points="396.7,301.8 397.1,301.5 396.2,300.6 398.3,299.5 398.7,300.9 399.4,300.9 399.2,301.3 "/> -->
-						<path fill="#B2B2B2" d="M402.1,304c0,0-0.3-0.3-1.3-0.5c-0.4-0.8-1.2-1.4-2.1-1.4c-1.2,0-2.2,0.9-2.3,2l0,0c0,0.5-0.1,0.9-0.1,1.4
-							c-0.8,0.3-2.5,0.1-3.8-2c-1.4,1.3-1.4,4.1,1,5.5c0,0,0.1,0,0.1,0c-1.1,0.3-2.2,0-2.5-0.4c0,2.2,3.4,3.6,6.3,3.2
-							c3.7-0.6,4-4.7,3.9-6.6C401.7,304.8,402.1,304,402.1,304z"/>
-						</svg>
-
-					</div>
-					<div class="btn btnFacebook">
-						<svg version="1.1" class="facebookSvg" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-								 viewBox="0 0 29 54.2" enable-background="new 0 0 29 54.2" xml:space="preserve">
-							<g>
-									<path class="googlePath" fill="#B2B2B2" d="M4.9,31.5H2.4c-0.8,0-1.4-0.7-1.4-1.4v-4.9c0-0.8,0.6-1.4,1.4-1.4h2.5v-7.9C4.9,6.1,10.8,1,18.6,1
-										c3.9,0,7.3,1.7,8.7,2.9c0.4,0.4,0.6,1.2,0.3,1.7l-2.5,4.7c-0.3,0.6-1.1,0.7-1.8,0.4c-1-0.6-2.7-1.5-4.3-1.5
-										c-3.2,0-4.9,2.4-4.9,6.7v7.9h7.3c0.8,0,1.4,0.6,1.4,1.4v4.9c0,0.7-0.6,1.4-1.4,1.4h-7.3v20.3c0,0.7-0.7,1.4-1.4,1.4H6.3
-										c-0.7,0-1.4-0.7-1.4-1.4V31.5z"/>
-								</g>
-							</g>
-							</svg>
-					</div>
+				<div class="section buy">
 					
-					<div class="btn btnGoogle">
-						<svg version="1.1"  class="googleSvg" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-							 viewBox="0 0 55.9 52.9" enable-background="new 0 0 55.9 52.9" xml:space="preserve">
-						<g>
-							<path fill="#B2B2B2" d="M5.5,19.7c0,0-2.2-2.5-2.2-6.9C3.3,5.9,8.8,0,16.1,0h13.4c0.8,0,1.4,0.6,1.4,1.4v2.4c0,0.5-0.3,1.1-0.8,1.2
-								l-4.1,1.3c0,0,2.9,2.3,2.9,7.5c0,5.8-4.8,11.5-12.6,11.5c-2.8,0-4.7-0.6-5.9-0.6c-1,0-2.7,1-2.7,2.8c0,1.5,1.3,2.5,2.9,2.5H20
-								c6.7,0,12.1,3.8,12.1,10.3c0,6.8-5.4,12.5-16.1,12.5c-10.9,0-15-5.4-15-10.1c0-4.4,3.7-6.5,4.4-7v-0.2C4.3,35.3,0,33.3,0,27.9
-								C0,22.2,5.5,19.7,5.5,19.7z M16,45.5c4.1,0,6.8-1.8,6.8-4.6c0-1.3-1-3.6-5.4-3.6c-1.6,0-3.2,0.1-4.8,0.3c-0.9,0.3-3.2,1.3-3.2,3.6
-								C9.5,43.8,12,45.5,16,45.5z M16.3,18.4c3,0,5.1-2.2,5.1-5.3c0-3.1-2.1-5.3-5.1-5.3c-2.9,0-5.1,2.2-5.1,5.3
-								C11.2,16.2,13.4,18.4,16.3,18.4z"/>
-						</g>
-						<polygon class="googlePoly" fill="#B2B2B2" points="55.9,7.4 48.5,7.4 48.5,0 42.1,0 42.1,7.4 34.7,7.4 34.7,13.9 42.1,13.9 42.1,21.2 48.5,21.2 
-							48.5,13.9 55.9,13.9 "/>
-						</svg>
+					<h2 class="banner"><span>Available now for $19.99</span></h2>
+					<ul class="stores smalllinks">
+						<li class="pc">
+							<a class="steam" href="http://store.steampowered.com/app/383870">
+								<h3>Steam</h3>
+							</a>
+							<a class="gog" href="https://www.gog.com/game/firewatch">
+								<h3>GOG</h3>
+							</a>
+							<h4 class="banner"><span>Windows Mac Linux</span></h4>
+						</li>
+						<li class="ps4">
+							<a class="psn" href="https://store.playstation.com/#!/search/q=firewatch">
+								<h3>PlayStation Store</h3>
+							</a>
+							<h4 class="banner"><span>PlayStation 4</span></h4>
+						</li>
+					</ul>
+				</div>
+
+				<div class="section feature videoparent">
+					<div class="videocontain">
+						<iframe src="https://www.youtube.com/embed/cXWlgP5hZzc" frameborder="0" allowfullscreen></iframe>
 					</div>
-				</div> 
-
-				<div class="privacyLinks">
-					<a href = "https://www.climaterealityproject.org/privacy-policy" target = "_blank" class="privacy">{ copy.link_privacy }</a>
-					<a href = "https://www.climaterealityproject.org/terms-of-use" target = "_blank" class="terms">{ copy.link_terms }</a>		
 				</div>
 
-			</footer>	
-
-			<div class = "scrollPrompt">
-				<div class = "cta">{ copy.cta_undecided }</div>
-			</div>
-			
-			<div class = "introPrompt">
-				<div class = "text">{ copy.do_this }</div>
-			</div>
-			<div class = "secondaryText">
-				<div class = "not">{ copy.cta_two }</div>
-				<div class = "or"><div class="line"></div>{ copy.or }<div class="line"></div></div>
-				<div class = "save">{ copy.cta_one }</div>
-				<div class ="lineTwo"> </div>
-			</div>
-	
-			<div class = "midText">{ copy.subhead }</div>
-
-		  	<div class = "introText">
-		  		<div class = "headline">{ copy.headline }</div>
-		  		<div class = "line">
-		  			<div class = "diamond"></div>
-		  		</div>
-		  		<div class = "body">{ copy.body }</div>
-		  	</div>
-
-			<div class = "questionText">
-				<div class = "title">{ copy.title }</div>
-				<div class = "line">
-					<div class = "diamond"></div>
-				</div>
-				<div class = "copy" rv-html="copy.question"></div>
-			</div>
-
-			<div class = "response">
-				<div class = "copy">{ copy.question }</div>
-			</div>
-
-			<div class = "countdown">
-				<div class = "copy"></div>
-			</div>
-
-			<div class = "sprite"></div>
-
-			<div class = "characterSprite spriteLeft">
-				<div class = "caption">{ copy.cta_left }</div>
-			</div>
-			
-			<div class = "characterSprite spriteRight">
-				<div class = "caption">{ copy.cta_right }</div>
-			</div>
-	
-		  	<div class = "progress">
-				<div class="bar"></div>
-		  	</div>
-
-			<div class = "section offBottom">
-				<div class = "innerContent">
-					<div class = "bg level">
-						<!-- <div class="paddingTop"></div> -->
-						<!-- <div class="paddingBottom"></div> -->
-						<div class = "parallaxContainer"></div>
+				<div class="section description">
+					<h5>Firewatch is a mystery set in the Wyoming wilderness, where your only emotional lifeline is the person on the other end of a handheld radio.</h5>
+					<div class="columntext">
+						<p class="left">The year is 1989.
+						<br /><br />
+						You are a man named Henry who has retreated from your messy life to work as a fire lookout in the Wyoming wilderness. Perched atop a mountain, it's your job to find smoke and keep the wilderness safe.
+						<br /><br />
+						An especially hot, dry summer has everyone on edge. Your supervisor, a woman named Delilah, is available to you </p><p>at all times over a small, handheld radio—and is your only contact with the world you've left behind.
+						<br /><br />
+						But when something strange draws you out of your lookout tower and into the world below, you'll explore a wild and unknown environment, facing questions and making interpersonal choices that can build or destroy the only meaningful relationship you have.
+						</p>
 					</div>
-					<div class = "low level"><div class = "parallaxContainer" data-depth="0.04"></div></div>
-					<div class = "mid level"><div class = "parallaxContainer" data-depth="0.18"></div></div>
-					<div class = "top level"><div class = "parallaxContainer" data-depth="0.36"></div></div>
-					<div class = "ui level"><div class = "parallaxContainer" data-depth="0.035" ></div></div>
 				</div>
-			</div>	
+
+				<div class="section internallinks">
+					<ul class="links smalllinks dim">
+						<li class="link merchandise"><a href="http://store.camposanto.com">
+							<h3>Campo Santo Store</h3>
+							<h4 class="banner"><span>Merchandise</span></h4>
+						</a></li>
+					</ul>
+					<ul class="links smalllinks dim">
+						<li class="link media"><a href="media/index.html">
+							<h4 class="banner"><span>Screens &amp; Trailers</span></h4>
+						</a></li>
+						<li class="link faq"><a href="about/index.html">
+							<h4 class="banner"><span>Firewatch FAQ</span></h4>
+						</a></li>
+					</ul>
+				</div>
+
+				<div class="section screenshots">
+					<ul class="thumbnails">
+						<li>
+							<a href="screenshots/firewatch-e3-2.jpg"><img alt="Firewatch screenshot" src="screenshots/thumbs/firewatch_01.jpg" /></a>
+						</li
+						><li>
+							<a href="screenshots/firewatch_150305_06.png"><img alt="Firewatch screenshot" src="screenshots/thumbs/firewatch_02.jpg" /></a>
+						</li
+						><li>
+							<a href="screenshots/firewatch-2.jpg"><img alt="Firewatch screenshot" src="screenshots/thumbs/firewatch_03.jpg" /></a>
+						</li
+						><li>
+							<a href="screenshots/firewatch-e3-5.jpg"><img alt="Firewatch screenshot" src="screenshots/thumbs/firewatch_04.jpg" /></a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="section pressquote big">
+					<h2>"As visually striking <br />as its unique premise."</h2>
+					<h3>Entertainment Weekly</h3>
+				</div>
+
+				<div class="section support">
+					<ul class="supportlinks smalllinks dim">
+						<li class="link techsupport"><a href="https://camposanto.zendesk.com/hc/en-us">
+							<h4 class="banner"><span>Tech Support</span></h4>
+						</a></li>
+						<li class="link streaming"><a href="about/index.html#streaming">
+							<h4 class="banner"><span>Streaming &amp; Let's Plays</span></h4>
+						</a></li>
+					</ul>
+				</div>
+
+				<div class="section copyright">
+					<p>&copy;<span id="year">2016</span> Campo Santo, in cooperation with Panic.</p>
+					<p>Firewatch is a trademark of Campo Santo.</p>
+				</div>
+
+				<div class="section companylinks">
+					<ul class="companies">
+						<li class="campo"><a href="http://www.camposanto.com/">
+							<h1>Campo Santo</h1>
+						</a></li>
+						<li class="panic"><a href="http://www.panic.com">
+							<h1>Panic</h1>
+						</a></li>
+					</ul>
+				</div>
+
+			</div></div>
+
 		</div>
 
-		<script type = "text/javascript" src = "../js/polyfills.js"></script>
-		<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-		<script type = "text/javascript" src = "../js/vendor/jquery.parallax.min.js"></script>
-		<script type = "text/javascript" src = "../js/vendor/jquery.counterup.min.js"></script>
-		<script type = "text/javascript" src = "../js/vendor/jquery.waypoints.min.js"></script>
-		<script type = "text/javascript" src = "../js/vendor/jquery.textillate.js"></script>
-		<script type = "text/javascript" src = "../js/vendor/jquery.lettering.js"></script>
-		<script type = "text/javascript" src = "../js/vendor/modernizr_custom.min.js"></script>
-		<script type = "text/javascript" src = "../js/vendor/underscore.js"></script>
-		<script type = "text/javascript" src = "../js/vendor/pixi.js"></script>
-		<script type = "text/javascript" src = "../js/vendor/rivets.bundled.min.js"></script>
-		<script type = "text/javascript" src = "../js/vendor/TweenMax.min.js"></script>
-		<script type = "text/javascript" src = "../js/vendor/native.history.js"></script>
-		<script type = "text/javascript" src = "../js/vendor/buzz.min.js"></script>
+		<script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
+		<script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="js/magnific.js"></script>
+		<script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
+		<script type="text/javascript" src="js/jquery.simplr.smoothscroll.min.js"></script>
 
-		<script src="../js/main.js"></script>
-		<script type = "text/javascript">
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-			ga('create', 'UA-47967003-4', 'auto');
-			ga('send', 'pageview');
-  
-		  	var main = new Main({"timezone":"America\/Los_Angeles","domain":"worldseasiestdecision.org","path":"","statsURL":"http:\/\/climate.api.worldseasiestdecision.org\/1.0","facebookAppId":"1657737274439015","protocol":"http","baseUrl":"http:\/\/worldseasiestdecision.org","m-baseUrl":"http:\/\/","deviceType":"computer","browser":"other","browserVersion":"?"});
-		  	var header = new Nickel.Header($(".container"), {"copyKey":"header"}, null);
-		  	var footer = new Nickel.Footer($(".container"), {"copyKey":"footer"}, null);
-		  	var climate = new Nickel.ClimateView( $("#climateView"), {},  "");
-		  	var petition = new Nickel.PetitionView( $("#petitionView"), {"copyKey":"petition"}, "petition");
-		  	var gallery = new Nickel.GalleryView( $("#galleryView"), {"copyKey":"gallery"}, "gallery");
-		  	var impact = new Nickel.ImpactView( $("#impactView"), {"copyKey":"impact"}, "impact");
-		  	var videoPlayer = new Nickel.VideoPlayer($(".container"), {"copyKey":"video_player"}, null);
+		<script type="text/javascript" src="js/firewizard.js"></script>
 
-		  	main.init();
+		<script type="text/javascript">
 
-		  	function onYouTubeIframeAPIReady(){
-		  		videoPlayer.youtubePlayerReady();
-		  	}
+		$(document).ready(function(){
+			$('.thumbnails').magnificPopup({
+				delegate: 'li a',
+				type:'image',
+				gallery: {
+					enabled: true,
+					preload: [1,1]
+				},
+				mainClass: 'mfp-with-zoom',
+				zoom: {
+					enabled: true,
+					duration: 300,
+					easing: 'ease-in-out',
+					opener: function(openerElement) {
+						return openerElement.is('img') ? openerElement : openerElement.find('img');
+					}
+				}
+			});
 
-		  	function optionalClick(target) {
-		  	    var e = document.getElementById(target);
-		  	    e.value = (e != null && e.checked) ? e.getAttribute('groups_KEY') : 0;
-		  	    console.log("body: " +  new XMLSerializer().serializeToString(document));
-		  	}
-
-            //precheck the box if we can
-            $(document).ready(function() {
-              $.ajax({
-                type: 'GET',
-                url: 'https://www.climaterealityproject.org/crp-geoip2/country-code/external?key=oPsrhNvspud)9v32Rcj26FiK?8HRXQ',
-                async: false,
-                contentType: "application/json",
-                dataType: 'jsonp',
-                success:function(data) {
-                  // If isoCode is US **OR** AU, pre-check box.
-                  if (data['isoCode'] == 'US' || data['isoCode'] == 'AU') {      
-                    var groups_key = $('#52').attr('groups_key');
-                    $('#52').prop('checked', true).val(groups_key);
-                  }     
-                },
-                error:function() {
-                  console.error('Error getting the geoIP data.');
-                }
-              });
-            });
-
-            //form code
-            $('#38').is(function(){
-                if (this.checked) {
-                 $('#unsub').val('Subscribed');
-                }
-            }) 
-            </script>
-            <script>
-            $('#38').change(function(){
-                if (this.checked) {
-                 $('#unsub').val('Subscribed');
-                }
-                else {
-                 $('#unsub').val('');
-                }
-            }) 
-            
-		  	window.fbAsyncInit = function() {
-
-		  	  var id = "1657737274439015";
-
-		  	  FB.init({
-		  	    appId      : id,
-		  	    xfbml      : true,
-		  	    version    : 'v2.1'
-		  	  });
-		  	};
-
-		  	(function(d, s, id){
-		  	   var js, fjs = d.getElementsByTagName(s)[0];
-		  	   if (d.getElementById(id)) {return;}
-		  	   js = d.createElement(s); js.id = id;
-		  	   js.src = "//connect.facebook.net/en_US/sdk.js";
-		  	   fjs.parentNode.insertBefore(js, fjs);
-		  	 }(document, 'script', 'facebook-jssdk'));
-
+			$("#year").text((new Date).getFullYear());
+		});
 		</script>
+
 	</body>
+
 </html>
