@@ -1,0 +1,26 @@
+@import 'https://fonts.googleapis.com/css?family=Rubik';
+@import url(https://fonts.googleapis.com/css?family=Rubik+One);
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans:500|Antic';
+@import 'https://fonts.googleapis.com/css?family=Lato:100,700';
+
+p{
+	font-family: 'Antic', sans-serif;
+}
+
+
+
+h5{
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+
+h2{
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+}
+
+h6{
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 45px;
+}

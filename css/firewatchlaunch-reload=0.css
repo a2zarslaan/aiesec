@@ -3,7 +3,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 a, a:link, a:visited { color: inherit; text-decoration: inherit; }
 
 /* GLOBAL */
-
+@import url(https://fonts.googleapis.com/css?family=Allerta);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
 .section.internallinks, .section.internallinks * {
 	vertical-align: baseline;
 }
@@ -275,10 +276,15 @@ h1#firewatchlogo {
 	margin-bottom: 30px;
 }
 
+
+.parahead{
+	font-weight: bold;.
+}
 .columntext p {
 	margin-bottom: 1.6em;
 	width: 325px;
 	display: inline-block;
+	font-family: 'PT Sans', sans-serif;
 }
 	.columntext p.left {
 		margin-right: 50px;
