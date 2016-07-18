@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Rubik+One);
 @import 'https://fonts.googleapis.com/css?family=Alegreya+Sans:500|Antic';
 @import 'https://fonts.googleapis.com/css?family=Lato:100,700';
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:700);
 
 p{
 	font-family: 'Antic', sans-serif;
@@ -23,4 +24,8 @@ h6{
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
 	font-size: 45px;
+}
+
+a{
+	font-family: 'Roboto Condensed', sans-serif;
 }
