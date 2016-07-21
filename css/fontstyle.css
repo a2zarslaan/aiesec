@@ -3,6 +3,8 @@
 @import 'https://fonts.googleapis.com/css?family=Alegreya+Sans:500|Antic';
 @import 'https://fonts.googleapis.com/css?family=Lato:100,700';
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:700);
+@import 'https://fonts.googleapis.com/css?family=Arizonia';
+
 
 p{
 	font-family: 'Antic', sans-serif;
@@ -28,4 +30,22 @@ h6{
 
 a{
 	font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+#reg{
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+}
+
+#dev{
+	font-family: 'Lato', sans-serif;
+	font-weight: 60;
+}
+
+#lin{
+	font-family: 'Lato', sans-serif;
+	font-weight: 50;
+	text-transform: capitalize;
+
 }
