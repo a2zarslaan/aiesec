@@ -4,7 +4,7 @@
 @import 'https://fonts.googleapis.com/css?family=Lato:100,700';
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:700);
 @import 'https://fonts.googleapis.com/css?family=Arizonia';
-
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
 
 p{
 	font-family: 'Antic', sans-serif;
@@ -13,7 +13,8 @@ p{
 
 
 h5{
-	font-family: 'Alegreya Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif !important;
+	font-size: 25px !important;
 }
 
 
