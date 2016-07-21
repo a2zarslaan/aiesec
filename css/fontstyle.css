@@ -14,9 +14,24 @@ p{
 
 h5{
 	font-family: 'Montserrat', sans-serif !important;
-	font-size: 25px !important;
+	font-size: 18px !important;
+
 }
 
+.item{
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 3s;
+}
+
+.item2{
+	-webkit-animation-duration: 2s;
+	-webkit-animation-delay: 8s;
+}
+
+.item3{
+	-webkit-animation-duration: 2s;
+	-webkit-animation-delay: 12s;
+}
 
 h2{
 	font-family: 'Lato', sans-serif;
