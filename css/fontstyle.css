@@ -41,12 +41,15 @@ a{
 #dev{
 	font-family: 'Lato', sans-serif;
 	font-weight: 60;
+	color: white;
+
 }
 
 #lin{
 	font-family: 'Lato', sans-serif;
 	font-weight: 60;
 	text-transform: capitalize;
+	color: white;
 
 }
 
